@@ -1,7 +1,7 @@
 import math
 
 #Funkce pro kontrolu, zda je cislo prvocislo
-def je_prvocislo(cislo):
+def je_prvocislo(cislo: int):
     """
     Funkce oveří, zda zadané číslo je prvočíslo a vrátí True nebo False.
     Prvočíslo je takové číslo větší než 1, které není dělitelné žadným jiným číslem kromě 1 a sebe samého.
@@ -18,7 +18,7 @@ def je_prvocislo(cislo):
     return True
 
 # Funkce pro vraceni vsech prvocisel v rozsahu od 1 do maxima
-def vrat_prvocisla(maximum):
+def vrat_prvocisla(maximum: int):
     """
     Funkce spočítá všechna prvočísla v rozsahu 1 až maximum a vrátí je jako seznam.
     """

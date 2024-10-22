@@ -1,5 +1,4 @@
 import third
 
-third.je_prvocislo(100)
-third.vrat_prvocisla(100)
-
+print(third.je_prvocislo('100'))
+print(third.vrat_prvocisla('100'))
