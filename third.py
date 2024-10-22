@@ -26,7 +26,7 @@ def vrat_prvocisla(maximum):
     for num in range(2, maximum + 1):
         if je_prvocislo(num):
             prvocisla.append(num)
-        return prvocisla
+    return prvocisla
     
 if __name__ == "__main__":
     #Převod vstupu na celé číslo
